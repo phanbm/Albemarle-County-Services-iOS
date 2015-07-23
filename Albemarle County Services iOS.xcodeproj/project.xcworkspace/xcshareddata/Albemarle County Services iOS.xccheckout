@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5D37D642-C50F-4B84-B461-F5FAF1C7F394</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BBEE49B5E07FC4335675D9A1F29A8DF7FD5D8C33</key>
+		<string>https://github.com/phanbm/Albemarle-County-Services-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Albemarle County Services iOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BBEE49B5E07FC4335675D9A1F29A8DF7FD5D8C33</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/phanbm/Albemarle-County-Services-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BBEE49B5E07FC4335675D9A1F29A8DF7FD5D8C33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BBEE49B5E07FC4335675D9A1F29A8DF7FD5D8C33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Albemarle%20County%20Services%20iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
