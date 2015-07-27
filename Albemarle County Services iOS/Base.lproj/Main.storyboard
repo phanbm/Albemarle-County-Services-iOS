@@ -17,24 +17,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ndK-0n-alh" userLabel="Spacer View 1">
-                                <rect key="frame" x="293" y="99" width="15" height="15"/>
+                                <rect key="frame" x="293" y="41" width="15" height="15"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="6Lj-nD-FyL">
                                         <variation key="heightClass=compact" constant="5"/>
                                         <variation key="widthClass=regular" constant="30"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="15" id="rvT-KI-FSt"/>
                                 </constraints>
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="293" y="72" width="15" height="65"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="193" y="-88" width="15" height="30"/>
-                                </variation>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFA-dY-yHb">
-                                <rect key="frame" x="211" y="122" width="179" height="44"/>
+                                <rect key="frame" x="211" y="64" width="179" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="tfV-nV-mgG"/>
                                 </constraints>
@@ -42,33 +40,28 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="211" y="145" width="179" height="44"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="111" y="-50" width="179" height="44"/>
-                                </variation>
                                 <connections>
                                     <action selector="reportClickHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CBO-Jg-eHf"/>
                                     <segue destination="yXm-MI-Rka" kind="show" id="SXE-n7-PMa"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5bH-bJ-7az" userLabel="Spacer View 2">
-                                <rect key="frame" x="293" y="174" width="15" height="15"/>
+                                <rect key="frame" x="293" y="116" width="15" height="15"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="QZ9-58-y5O">
                                         <variation key="heightClass=compact" constant="5"/>
                                         <variation key="widthClass=regular" constant="30"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="15" id="pLT-hf-RSj"/>
                                 </constraints>
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="293" y="197" width="15" height="65"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="193" y="2" width="15" height="30"/>
-                                </variation>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arR-gq-Ucr">
-                                <rect key="frame" x="246" y="197" width="108" height="44"/>
+                                <rect key="frame" x="246" y="139" width="108" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="3e3-rW-aek"/>
                                 </constraints>
@@ -76,33 +69,28 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="246" y="270" width="108" height="44"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="146" y="40" width="108" height="44"/>
-                                </variation>
                                 <connections>
                                     <action selector="zoningClickHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vFC-yc-5f0"/>
                                     <segue destination="PeE-Ta-fFz" kind="show" id="xml-VC-dc1"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vw6-ji-MvQ" userLabel="Spacer View 3">
-                                <rect key="frame" x="293" y="249" width="15" height="15"/>
+                                <rect key="frame" x="293" y="191" width="15" height="15"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="15" id="5Kw-Sk-t2y"/>
                                     <constraint firstAttribute="height" constant="15" id="QO0-Zk-Wg5">
                                         <variation key="heightClass=compact" constant="5"/>
                                         <variation key="widthClass=regular" constant="30"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                                     </constraint>
                                 </constraints>
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="293" y="322" width="15" height="65"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="193" y="92" width="15" height="30"/>
-                                </variation>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRS-3c-HAX">
-                                <rect key="frame" x="146" y="272" width="308" height="44"/>
+                                <rect key="frame" x="146" y="214" width="308" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="o63-Pw-Cig"/>
                                 </constraints>
@@ -110,33 +98,28 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="146" y="395" width="308" height="44"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="46" y="130" width="308" height="44"/>
-                                </variation>
                                 <connections>
                                     <action selector="lawClickHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Htc-Xk-0Im"/>
                                     <segue destination="zux-gR-ZY8" kind="show" id="ymJ-py-JEE"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XP7-O9-WxO" userLabel="Spacer View 4">
-                                <rect key="frame" x="293" y="324" width="15" height="15"/>
+                                <rect key="frame" x="293" y="266" width="15" height="15"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="XsK-Xd-7uh">
                                         <variation key="heightClass=compact" constant="5"/>
                                         <variation key="widthClass=regular" constant="30"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="15" id="zwP-qN-bR8"/>
                                 </constraints>
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="293" y="447" width="15" height="65"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="193" y="182" width="15" height="30"/>
-                                </variation>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31p-xh-j8X">
-                                <rect key="frame" x="224" y="347" width="153" height="44"/>
+                                <rect key="frame" x="224" y="289" width="153" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="mGe-od-yHg"/>
                                 </constraints>
@@ -144,20 +127,18 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="224" y="520" width="153" height="44"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="124" y="220" width="153" height="44"/>
-                                </variation>
                                 <connections>
                                     <action selector="certificateClickHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0V-ta-hj5"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v5c-xE-nx7" userLabel="Spacer View 5">
-                                <rect key="frame" x="293" y="399" width="15" height="15"/>
+                                <rect key="frame" x="293" y="341" width="15" height="15"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="EBp-lS-lzU">
                                         <variation key="heightClass=compact" constant="5"/>
                                         <variation key="widthClass=regular" constant="30"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="15" id="s0V-nq-E6m">
                                         <variation key="heightClass=compact-widthClass=compact" constant="15"/>
@@ -166,12 +147,9 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="293" y="572" width="15" height="65"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="193" y="272" width="15" height="30"/>
-                                </variation>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVy-Eh-D7W">
-                                <rect key="frame" x="273" y="422" width="55" height="44"/>
+                                <rect key="frame" x="273" y="364" width="55" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="WIT-0Q-ewx"/>
                                 </constraints>
@@ -179,21 +157,19 @@
                                 <variation key="heightClass=regular" misplaced="YES">
                                     <rect key="frame" x="273" y="645" width="55" height="44"/>
                                 </variation>
-                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="173" y="310" width="55" height="44"/>
-                                </variation>
                                 <connections>
                                     <action selector="contactClickHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RXy-ID-RMz"/>
                                     <segue destination="0qV-w0-HCD" kind="show" id="TXM-1V-oNJ"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQg-Tu-MHm" userLabel="Spacer View 6">
-                                <rect key="frame" x="293" y="474" width="15" height="15"/>
+                                <rect key="frame" x="293" y="416" width="15" height="15"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="98e-tw-9GY">
                                         <variation key="heightClass=compact" constant="5"/>
                                         <variation key="widthClass=regular" constant="30"/>
+                                        <variation key="heightClass=compact-widthClass=regular" constant="15"/>
                                     </constraint>
                                     <constraint firstAttribute="width" constant="15" id="dOV-V0-R6n"/>
                                 </constraints>
@@ -205,47 +181,63 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="31p-xh-j8X" firstAttribute="top" secondItem="XP7-O9-WxO" secondAttribute="bottom" constant="8" symbolic="YES" id="0Z5-4E-e6c">
-                                <variation key="heightClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
                             </constraint>
-                            <constraint firstItem="IQg-Tu-MHm" firstAttribute="height" secondItem="v5c-xE-nx7" secondAttribute="height" id="14i-g0-8DU"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IQg-Tu-MHm" secondAttribute="bottom" priority="250" constant="8" symbolic="YES" id="7a3-qi-dhU" userLabel="Space to Bottom"/>
-                            <constraint firstItem="IQg-Tu-MHm" firstAttribute="height" secondItem="XP7-O9-WxO" secondAttribute="height" id="9YF-p1-Cfc"/>
                             <constraint firstAttribute="centerX" secondItem="IQg-Tu-MHm" secondAttribute="centerX" id="Fom-Ww-35b"/>
                             <constraint firstAttribute="centerX" secondItem="QVy-Eh-D7W" secondAttribute="centerX" id="HuY-9d-hcA"/>
                             <constraint firstItem="QVy-Eh-D7W" firstAttribute="top" secondItem="v5c-xE-nx7" secondAttribute="bottom" constant="8" symbolic="YES" id="JEO-PR-asZ">
-                                <variation key="heightClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="5bH-bJ-7az" secondAttribute="centerX" id="MS6-AB-rbX"/>
-                            <constraint firstItem="IQg-Tu-MHm" firstAttribute="top" secondItem="QVy-Eh-D7W" secondAttribute="bottom" priority="750" constant="8" symbolic="YES" id="MYX-1N-mcH"/>
+                            <constraint firstItem="IQg-Tu-MHm" firstAttribute="top" secondItem="QVy-Eh-D7W" secondAttribute="bottom" priority="750" constant="8" symbolic="YES" id="MYX-1N-mcH">
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
+                            </constraint>
                             <constraint firstAttribute="centerX" secondItem="v5c-xE-nx7" secondAttribute="centerX" id="Mec-tI-lug"/>
-                            <constraint firstItem="5bH-bJ-7az" firstAttribute="top" secondItem="NFA-dY-yHb" secondAttribute="bottom" constant="8" symbolic="YES" id="PkV-kZ-mCf"/>
+                            <constraint firstItem="5bH-bJ-7az" firstAttribute="top" secondItem="NFA-dY-yHb" secondAttribute="bottom" constant="8" symbolic="YES" id="PkV-kZ-mCf">
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
+                            </constraint>
                             <constraint firstItem="NFA-dY-yHb" firstAttribute="top" secondItem="ndK-0n-alh" secondAttribute="bottom" constant="8" symbolic="YES" id="R2W-eD-ot1">
-                                <variation key="heightClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="XP7-O9-WxO" secondAttribute="centerX" id="W8u-Ye-Y3h"/>
                             <constraint firstAttribute="centerX" secondItem="ndK-0n-alh" secondAttribute="centerX" id="XZR-MC-3uA"/>
                             <constraint firstAttribute="centerX" secondItem="NFA-dY-yHb" secondAttribute="centerX" id="Zft-1r-5wK"/>
-                            <constraint firstItem="IQg-Tu-MHm" firstAttribute="height" secondItem="vw6-ji-MvQ" secondAttribute="height" id="aQh-Ad-1qm"/>
-                            <constraint firstItem="IQg-Tu-MHm" firstAttribute="height" secondItem="ndK-0n-alh" secondAttribute="height" id="bk1-y8-0wf"/>
                             <constraint firstItem="v5c-xE-nx7" firstAttribute="top" secondItem="31p-xh-j8X" secondAttribute="bottom" constant="8" symbolic="YES" id="ceN-e9-5sU">
-                                <variation key="heightClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
                             </constraint>
                             <constraint firstItem="arR-gq-Ucr" firstAttribute="top" secondItem="5bH-bJ-7az" secondAttribute="bottom" constant="8" symbolic="YES" id="ihX-a0-KgV">
-                                <variation key="heightClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="eRS-3c-HAX" secondAttribute="centerX" id="lLd-Ij-rdk"/>
                             <constraint firstItem="eRS-3c-HAX" firstAttribute="top" secondItem="vw6-ji-MvQ" secondAttribute="bottom" constant="8" symbolic="YES" id="o0i-Ve-KJi">
-                                <variation key="heightClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
                             </constraint>
                             <constraint firstAttribute="centerX" secondItem="31p-xh-j8X" secondAttribute="centerX" id="qNl-m0-VZH"/>
-                            <constraint firstItem="IQg-Tu-MHm" firstAttribute="height" secondItem="5bH-bJ-7az" secondAttribute="height" id="sxK-YF-dKL"/>
-                            <constraint firstItem="y3c-jy-aDJ" firstAttribute="top" secondItem="ndK-0n-alh" secondAttribute="bottom" priority="750" constant="-50" id="uWO-X9-fW5" userLabel="Space to Top">
-                                <variation key="heightClass=compact" constant="-30"/>
+                            <constraint firstItem="y3c-jy-aDJ" firstAttribute="top" secondItem="ndK-0n-alh" secondAttribute="bottom" constant="8" symbolic="YES" id="uWO-X9-fW5" userLabel="Space to Top">
+                                <variation key="heightClass=compact-widthClass=compact" constant="-50"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="-60"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="-100"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="-200"/>
                             </constraint>
-                            <constraint firstItem="vw6-ji-MvQ" firstAttribute="top" secondItem="arR-gq-Ucr" secondAttribute="bottom" constant="8" symbolic="YES" id="uxt-8G-kfc"/>
+                            <constraint firstItem="vw6-ji-MvQ" firstAttribute="top" secondItem="arR-gq-Ucr" secondAttribute="bottom" constant="8" symbolic="YES" id="uxt-8G-kfc">
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
+                            </constraint>
                             <constraint firstAttribute="centerX" secondItem="arR-gq-Ucr" secondAttribute="centerX" id="vtf-7e-BdX"/>
                             <constraint firstAttribute="centerX" secondItem="vw6-ji-MvQ" secondAttribute="centerX" id="x7B-KZ-KMt"/>
-                            <constraint firstItem="XP7-O9-WxO" firstAttribute="top" secondItem="eRS-3c-HAX" secondAttribute="bottom" constant="8" symbolic="YES" id="xYF-rk-id1"/>
+                            <constraint firstItem="XP7-O9-WxO" firstAttribute="top" secondItem="eRS-3c-HAX" secondAttribute="bottom" constant="8" symbolic="YES" id="xYF-rk-id1">
+                                <variation key="heightClass=compact-widthClass=compact" constant="1"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="1"/>
+                            </constraint>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Albemarle County Services" id="5iO-ua-LwF"/>
@@ -264,7 +256,7 @@
         <!--Report a Problem (Placeholder Text)-->
         <scene sceneID="lEk-83-JmG">
             <objects>
-                <viewController id="yBA-aX-qoh" sceneMemberID="viewController">
+                <viewController id="yBA-aX-qoh" customClass="ReportFormViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gn5-OK-BWw"/>
                         <viewControllerLayoutGuide type="bottom" id="O4Q-Dd-Zwu"/>
@@ -283,7 +275,7 @@
         <!--Complaints and Concerns-->
         <scene sceneID="4zK-mQ-SoQ">
             <objects>
-                <viewController id="yXm-MI-Rka" sceneMemberID="viewController">
+                <viewController id="yXm-MI-Rka" customClass="ReportViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UlN-wp-2oS"/>
                         <viewControllerLayoutGuide type="bottom" id="AoK-bJ-ovC"/>
@@ -317,15 +309,6 @@
                                 </state>
                                 <connections>
                                     <segue destination="yBA-aX-qoh" kind="show" id="Hjh-89-Sgv"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcs-XU-2Lf">
-                                <rect key="frame" x="277" y="417" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="yBA-aX-qoh" kind="show" id="Zqw-gD-8A2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XR4-hC-FYg">
