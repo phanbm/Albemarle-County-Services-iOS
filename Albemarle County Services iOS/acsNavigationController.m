@@ -1,18 +1,18 @@
 //
-//  ReportFormViewController.m
+//  acsNavigationController.m
 //  Albemarle County Services iOS
 //
-//  Created by Bryan Phan on 7/24/15.
+//  Created by Bryan Phan on 7/27/15.
 //  Copyright (c) 2015 Albemarle County IT Department Interns. All rights reserved.
 //
 
-#import "ReportFormViewController.h"
+#import "acsNavigationController.h"
 
-@interface ReportFormViewController ()
+@interface acsNavigationController ()
 
 @end
 
-@implementation ReportFormViewController
+@implementation acsNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+    return self.visibleViewController.preferredInterfaceOrientationForPresentation;
+}
 
+-(BOOL)shouldAutorotate {
+    return self.visibleViewController.shouldAutorotate;
+}
+
+-(NSUInteger)supportedInterfaceOrientations{
+    return self.visibleViewController.supportedInterfaceOrientations;
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [self.visibleViewController viewDidAppear:(BOOL)animated];
+}*/
 
 /*
 #pragma mark - Navigation
