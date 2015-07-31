@@ -16,6 +16,7 @@
 		93826ADF1B5FF3C600904119 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93826ADE1B5FF3C600904119 /* Images.xcassets */; };
 		93826AE21B5FF3C600904119 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93826AE01B5FF3C600904119 /* LaunchScreen.xib */; };
 		93826AEE1B5FF3C600904119 /* Albemarle_County_Services_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93826AED1B5FF3C600904119 /* Albemarle_County_Services_iOSTests.m */; };
+		9394ECA81B6BD82400F8A446 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9394ECA71B6BD82400F8A446 /* Images.xcassets */; };
 		93B5B3F71B68128F000CC643 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B5B3F61B68128F000CC643 /* ContactViewController.m */; };
 		93D2A5A31B61407000F8E8E2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D2A5A21B61407000F8E8E2 /* MainViewController.m */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		93826AE71B5FF3C600904119 /* Albemarle County Services iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Albemarle County Services iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93826AEC1B5FF3C600904119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93826AED1B5FF3C600904119 /* Albemarle_County_Services_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Albemarle_County_Services_iOSTests.m; sourceTree = "<group>"; };
+		9394ECA71B6BD82400F8A446 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		93B5B3F51B68128F000CC643 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		93B5B3F61B68128F000CC643 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		93D2A5A11B61407000F8E8E2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				93826AD61B5FF3C600904119 /* AppDelegate.m */,
 				93826ADB1B5FF3C600904119 /* Main.storyboard */,
 				93826ADE1B5FF3C600904119 /* Images.xcassets */,
+				9394ECA71B6BD82400F8A446 /* Images.xcassets */,
 				93826AE01B5FF3C600904119 /* LaunchScreen.xib */,
 				93826AD11B5FF3C600904119 /* Supporting Files */,
 				93D2A5A11B61407000F8E8E2 /* MainViewController.h */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93826ADD1B5FF3C600904119 /* Main.storyboard in Resources */,
+				9394ECA81B6BD82400F8A446 /* Images.xcassets in Resources */,
 				93826AE21B5FF3C600904119 /* LaunchScreen.xib in Resources */,
 				93826ADF1B5FF3C600904119 /* Images.xcassets in Resources */,
 			);
