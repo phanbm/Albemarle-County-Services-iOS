@@ -24,7 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
+/*
+-(UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
     return self.visibleViewController.preferredInterfaceOrientationForPresentation;
 }
 
@@ -38,8 +39,8 @@
 
 -(void)viewDidAppear:(BOOL)animated {
     [self.visibleViewController viewDidAppear:(BOOL)animated];
-}*/
-
+}
+*/
 /*
 #pragma mark - Navigation
 

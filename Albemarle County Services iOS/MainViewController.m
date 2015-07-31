@@ -41,8 +41,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-    NSNumber *value = [NSNumber numberWithInt:UIInterfaceOrientationPortrait];
-    [[UIDevice currentDevice] setValue:value forKey:@"orientation"];
+    
+    /* The following code snippet will work in a prepareForSegue() method to force the initial orientation of the next page to be portrait (but it will still autorotate*/
+  //  NSNumber *value = [NSNumber numberWithInt:UIInterfaceOrientationPortrait];
+  //  [[UIDevice currentDevice] setValue:value forKey:@"orientation"];
 
 }
 
@@ -52,6 +54,9 @@
 }
 
 - (IBAction)zoningClickHandler:(id)sender {
+    NSString *urlString = @"http://www.albemarle.org/department.asp?department=cdd&relpage=2778";
+    NSURL *url = [NSURL URLWithString:urlString];
+    [[UIApplication sharedApplication] openURL:url];
 }
 
 - (IBAction)lawClickHandler:(id)sender {
